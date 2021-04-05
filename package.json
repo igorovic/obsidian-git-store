@@ -4,6 +4,8 @@
   "description": "Use github as a store for your notes",
   "main": "index.js",
   "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "install": "cp main.js test_vault/.obsidian/plugins/obsidian-git-store/main.js && cp manifest.json test_vault/.obsidian/plugins/obsidian-git-store/manifest.json && cp styles.css test_vault/.obsidian/plugins/obsidian-git-store/styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

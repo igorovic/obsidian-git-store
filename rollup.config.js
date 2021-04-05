@@ -6,7 +6,7 @@ import scss from 'rollup-plugin-scss';
 export default {
   input: 'src/main.ts',
   output: {
-    file: "index.js",
+    file: "main.js",
     sourcemap: 'inline',
     format: 'cjs',
     exports: 'default'
